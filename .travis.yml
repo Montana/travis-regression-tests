@@ -1,4 +1,6 @@
 dist: focal 
 language: shell 
-script: bash regression.sh 
+script: 
+  - chmod +x script.sh
+  - ./script.sh 
 install: skip 
