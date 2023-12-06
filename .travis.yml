@@ -1,0 +1,4 @@
+dist: focal 
+language: shell 
+script: bash regression.sh 
+install: skip 
